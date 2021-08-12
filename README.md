@@ -24,8 +24,8 @@ The other dependencies are specified in the `requirements.txt` file.
 ```
 git clone $THIS_REPO
 cd $THIS_REPO
-pip install requirements_primary.txt
-pip install requirements.txt
+pip install -r requirements_primary.txt
+pip install -r requirements.txt
 ```
 
 download `stanfordnlp.download('en_ewt')`
