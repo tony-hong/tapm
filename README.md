@@ -1,7 +1,15 @@
 # Transitional Adaptation of Pretrained Models for Visual Storytelling (TAPM)
 
-- Authors: Youngjae Yu1∗, Jiwan Chung*, Heeseung Yun, Jongseok Kim, Gunhee Kim
+- Authors:
+  [Youngjae Yu1∗](https://yj-yu.github.io/home/),
+  [Jiwan Chung*](https://vision.snu.ac.kr/people/jiwanchung.html),
+  [Heeseung Yun](https://vision.snu.ac.kr/people/heeseungyun.html),
+  [Jongseok Kim](https://ozmig77.github.io/),
+  [Gunhee Kim](https://vision.snu.ac.kr/gunhee/)
 - Paper: [CVPR2021](https://openaccess.thecvf.com/content/CVPR2021/html/Yu_Transitional_Adaptation_of_Pretrained_Models_for_Visual_Storytelling_CVPR_2021_paper.html)
+  ([pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Yu_Transitional_Adaptation_of_Pretrained_Models_for_Visual_Storytelling_CVPR_2021_paper.pdf),
+  [slide](assets/cvpr_tapm_slides.pdf),
+  [video](https://www.youtube.com/watch?v=-a7V4TYA1T4))
 
 ## Introduction
 
@@ -47,6 +55,11 @@ From the downloaded files, extract and move the `task1` folder to under `$THIS_R
 ### Features
 The above link contains the two features: I3D and Resnet152.
 Extract and move both features to under `$THIS_REPO/data/LSMDC/features` directory.
+
+### ResNext Features
+We also provide alternative features extracted with ResNext.
+Note that to reproduce our results you need these features instead of the official ones.
+[Download](https://drive.google.com/uc?id=1dqfpX76QxVnOOThgY8-cuSG5m-0LVZZk)
 
 ## VIST
 Please follow the instructions on [Download](http://visionandlanguage.net/VIST/dataset.html) to download the dataset.
